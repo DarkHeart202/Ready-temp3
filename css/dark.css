@@ -28,7 +28,7 @@ a{
     text-decoration: none;
 }
 .dots {
-  background-image: url("/img/dots.png");
+  background-image: url("../img/dots.png");
   width: 204px;
   height: 186px;
   position: absolute;
@@ -1325,7 +1325,7 @@ header .container .mega-menu .links li:hover::before{
   position: relative;
 }
 .stats{
-  background-image: url("/img/stats.jpg");
+  background-image: url("../img/stats.jpg");
   position: relative;
   padding-top: var(--main-padding-top);
   padding-bottom: var(--main-padding-bottom);
@@ -1409,7 +1409,7 @@ header .container .mega-menu .links li:hover::before{
   max-width: 100%;
 }
 .discount .left{
-  background-image: url("/img/discount-background1.jpg");
+  background-image: url("../img/discount-background1.jpg");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -1441,10 +1441,10 @@ header .container .mega-menu .links li:hover::before{
 }
 @keyframes change{
   0%,100%{
-    background-image: url("/img/discount-background1.jpg");
+    background-image: url("../img/discount-background1.jpg");
   }
   50%{
-    background-image: url("/img/discount-background2.jpg");
+    background-image: url("../img/discount-background2.jpg");
   }
 }
 .discount .right{
