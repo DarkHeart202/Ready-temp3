@@ -4,6 +4,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+@media (max-width: 600px) {
+  body, p, h1, h2, h3, span, div {
+    font-style: normal !important;
+  }
+}
+
 :root{
     --main-color:#2196f3;
     --main-color-alt: #1787e0;
