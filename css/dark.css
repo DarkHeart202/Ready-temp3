@@ -1018,6 +1018,7 @@ header .container .mega-menu .links li:hover::before{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
 }
 .events .container .info{
   flex: 1;
@@ -1039,6 +1040,7 @@ header .container .mega-menu .links li:hover::before{
   border: 1px solid #d4d4d4;
   border-radius: 6px;
   width: 75px;
+  background-color: white;
   transition: var(--main-transition);
 }
 .events .container .info .counters .unit span:first-of-type{
